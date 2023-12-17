@@ -8,8 +8,12 @@
   }
 
   .hero_area {
-    background: linear-gradient(130deg, #231a6f, #0f054c);
+    background: linear-gradient(to bottom, #6EB144, rgba(110, 177, 68, 0.75), #ffffff);
   }
+  .bg_img_box::after
+{
+  transform: translate(-50%, -50%);
+}
 
   .hero_area .hero_bg_box {
     display: none;
@@ -28,6 +32,7 @@
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
     margin: 5px 0;
+    
   }
 
 
@@ -64,6 +69,7 @@
   .client_section .owl-carousel .owl-nav .owl-next {
     position: unset;
     margin: 0 2.5px;
+    
   }
 }
 
